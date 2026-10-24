@@ -118,7 +118,7 @@
 
   /* Form controls pick up the theme so future forms are readable in both modes */
   input, textarea, select {
-    @apply w-full rounded border border-line/40 bg-page px-4 py-3 text-fg;
+    @apply w-full rounded border border-line/60 bg-page px-4 py-3 text-fg;
   }
   input::placeholder, textarea::placeholder { color: rgb(var(--fg-soft)); opacity: 0.85; }
   input:focus-visible, textarea:focus-visible, select:focus-visible { outline-offset: 1px; }
@@ -267,7 +267,7 @@
   /* ---------- Products: catalogue ---------- */
   .filter-bar { @apply flex flex-wrap items-center gap-2; }
   .filter-chip {
-    @apply inline-flex min-h-[2.75rem] items-center gap-2 rounded border border-line/40 bg-transparent px-4 text-[0.9375rem] font-semibold text-fg transition-colors duration-200 hover:bg-alt;
+    @apply inline-flex min-h-[2.75rem] items-center gap-2 rounded border border-line/60 bg-transparent px-4 text-[0.9375rem] font-semibold text-fg transition-colors duration-200 hover:bg-alt;
     cursor: pointer;
   }
   .filter-chip small { @apply font-sans text-step--1 font-medium text-fg-soft; }
