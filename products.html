@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Products | Home Office Ergonomic Furniture &amp; Setup Consultancy</title>
+  <meta name="description" content="Browse ergonomic chairs, height-adjustable desks, monitor arms, laptop stands and workspace accessories for a more considered home office.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <script src="js/prefs.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="products">
+  <div data-site-header></div>
+
+  <main id="main">
+
+    <!-- 1 · HERO — catalogue mosaic -->
+    <section class="hero-inner hero-inner--catalogue" aria-labelledby="hero-title">
+      <div class="container-site hero-inner__grid hero-inner__grid--media">
+        <div class="hero-inner__copy">
+          <p class="eyebrow">The Workspace Collection</p>
+          <h1 id="hero-title" class="mt-5 text-step-5">Furniture That Works With You</h1>
+          <p class="lede">Explore ergonomic furniture and practical accessories for a more considered home workspace.</p>
+          <div class="btn-group">
+            <a class="btn btn-primary" href="#catalogue">Explore Products</a>
+            <a class="btn btn-secondary" href="contact.html?enquiry=product#enquiry-form">Ask About a Product</a>
+          </div>
+        </div>
+        <div class="hero-inner__media">
+          <div class="mosaic">
+            <figure>
+              <img src="assets/img/p-hero-chair.jpg" width="1400" height="1867" fetchpriority="high" style="object-position:50% 40%"
+                   alt="Black mesh ergonomic office chair with a headrest and adjustable armrests on a chrome base">
+              <figcaption>01 Seating</figcaption>
+            </figure>
+            <figure>
+              <img src="assets/img/p-hero-desk.jpg" width="1400" height="933" fetchpriority="high" style="object-position:40% 40%"
+                   alt="Sit-stand desk with two monitors and a tablet beside an office chair">
+              <figcaption>02 Desks</figcaption>
+            </figure>
+            <figure>
+              <img src="assets/img/h2-cat-laptop-stand.jpg" width="1920" height="1280" fetchpriority="high" style="object-position:30% 55%"
+                   alt="Laptop raised on a stand beside a monitor on a bright desk">
+              <figcaption>03 Stands</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2 · PRODUCT CATALOGUE -->
+    <section id="catalogue" class="section" aria-labelledby="cat-title">
+      <div class="container-site">
+        <div class="grid gap-6 lg:grid-cols-12 lg:items-end">
+          <div class="lg:col-span-7">
+            <p class="eyebrow">Product catalogue</p>
+            <h2 id="cat-title" class="mt-4 max-w-[16ch]">Browse by category</h2>
+          </div>
+          <p class="prose-block lg:col-span-5">Each category covers the options we can help you choose from. Tell us about your space and we'll point you to what suits it.</p>
+        </div>
+
+        <div class="mt-10 flex flex-wrap items-center justify-between gap-4">
+          <div class="filter-bar" role="group" aria-label="Filter products by category" data-filters>
+            <button type="button" class="filter-chip" data-filter="all" aria-pressed="true">All Products <small data-count="all">16</small></button>
+            <button type="button" class="filter-chip" data-filter="seating" aria-pressed="false">Seating <small data-count="seating">4</small></button>
+            <button type="button" class="filter-chip" data-filter="desks" aria-pressed="false">Desks <small data-count="desks">4</small></button>
+            <button type="button" class="filter-chip" data-filter="screens" aria-pressed="false">Screen Setup <small data-count="screens">4</small></button>
+            <button type="button" class="filter-chip" data-filter="accessories" aria-pressed="false">Accessories <small data-count="accessories">4</small></button>
+          </div>
+          <p class="text-step--1 text-fg-soft" role="status" aria-live="polite" data-status>Showing 6 of 16 (all products), page 1 of 3</p>
+        </div>
+
+        <ol class="catalog mt-6" data-catalog>
+          <li id="chairs" class="catalog-item" data-group="seating">
+            <div class="catalog-item__media"><img src="assets/img/p-cat-chair.jpg" width="1400" height="1867" loading="lazy" style="object-position:50% 35%"
+              alt="Black mesh ergonomic chair standing on a tiled floor, seen from the front"></div>
+            <div>
+              <p><span class="catalog-item__ref">01</span><span class="catalog-item__tag">Seating</span></p>
+              <h3 class="mt-2 text-step-2">Ergonomic Chairs</h3>
+              <p class="mt-2">Seating with adjustable features, chosen to suit your desk height, how long you sit and the room you have.</p>
+              <a class="link-text link-arrow mt-4" href="contact.html?enquiry=product#enquiry-form">Enquire about chairs</a>
+            </div>
+          </li>
+          <li id="desks" class="catalog-item" data-group="desks">
+            <div class="catalog-item__media"><img src="assets/img/h2-cat-desk.jpg" width="1280" height="1707" loading="lazy" style="object-position:50% 45%"
+              alt="Wooden-topped height-adjustable desk with a laptop and monitor against a plain wall"></div>
+            <div>
+              <p><span class="catalog-item__ref">02</span><span class="catalog-item__tag">Desks</span></p>
+              <h3 class="mt-2 text-step-2">Height-Adjustable Desks</h3>
+              <p class="mt-2">Work surfaces that move between sitting and standing heights, sized to the space you have available.</p>
+              <a class="link-text link-arrow mt-4" href="contact.html?enquiry=product#enquiry-form">Enquire about desks</a>
+            </div>
+          </li>
+          <li id="monitor-arms" class="catalog-item" data-group="screens">
+            <div class="catalog-item__media"><img src="assets/img/p-hero-laptop-stand.jpg" width="1920" height="2560" loading="lazy" class="!object-contain bg-white"
+              alt="Black folding laptop stand on a plain white background"></div>
+            <div>
+              <p><span class="catalog-item__ref">03</span><span class="catalog-item__tag">Screen setup</span></p>
+              <h3 class="mt-2 text-step-2">Monitor Arms &amp; Laptop Stands</h3>
+              <p class="mt-2">Hold screens and laptops at a comfortable viewing height while freeing up the desk surface.</p>
+              <a class="link-text link-arrow mt-4" href="contact.html?enquiry=product#enquiry-form">Enquire about screen setup</a>
+            </div>
+          </li>
+          <li id="accessories" class="catalog-item" data-group="accessories">
+            <div class="catalog-item__media"><img src="assets/img/p-cat-keyboard.jpg" width="1400" height="950" loading="lazy" style="object-position:50% 50%"
+              alt="Curved ergonomic keyboard with a built-in palm rest"></div>
+            <div>
+              <p><span class="catalog-item__ref">04</span><span class="catalog-item__tag">Accessories</span></p>
+              <h3 class="mt-2 text-step-2">Keyboard &amp; Mouse Accessories</h3>
+              <p class="mt-2">Input devices and supports that keep everyday tools within comfortable, well-organised reach.</p>
+              <a class="link-text link-arrow mt-4" href="contact.html?enquiry=product#enquiry-form">Enquire about keyboards &amp; mice</a>
+            </div>
+          </li>
+          <li id="footrests" class="catalog-item" data-group="accessories">
+            <div class="catalog-item__media"><img src="assets/img/h2-cat-footrest.jpg" width="1280" height="857" loading="lazy" style="object-position:50% 50%"
+              alt="Feet resting on an angled footrest under a desk"></div>
+            <div>
+              <p><span class="catalog-item__ref">05</span><span class="catalog-item__tag">Accessories</span></p>
+              <h3 class="mt-2 text-step-2">Footrests &amp; Desk Accessories</h3>
+              <p class="mt-2">Foot supports and small desk additions that help you settle into a steady working position.</p>
+              <a class="link-text link-arrow mt-4" href="contact.html?enquiry=product#enquiry-form">Enquire about footrests</a>
+            </div>
+          </li>
+          <li id="lighting" class="catalog-item" data-group="accessories">
+            <div class="catalog-item__media"><img src="assets/img/p-cat-organizer.jpg" width="1400" height="897" loading="lazy" style="object-position:50% 50%"
+              alt="Wooden desk tray with compartments holding pens, a calendar and small items"></div>
+            <div>
+              <p><span class="catalog-item__ref">06</span><span class="catalog-item__tag">Accessories</span></p>
+              <h3 class="mt-2 text-step-2">Workspace Lighting &amp; Organization</h3>
+              <p class="mt-2">Task lighting, organisers and cable management to keep the desk clear and the screen free of glare.</p>
+              <a class="link-text link-arrow mt-4" href="contact.html?enquiry=product#enquiry-form">Enquire about lighting &amp; organisers</a>
+            </div>
+          </li>
+          <li class="catalog-item" data-group="seating">
+            <div class="catalog-item__media"><img src="assets/img/p-n-seat-highback.jpg" width="1280" height="1920" loading="lazy" style="object-position:50% 45%"
+              alt="Black high-backed office chair with a mesh back and armrests, standing on a pale floor"></div>
+            <div>
+              <p><span class="catalog-item__ref">07</span><span class="catalog-item__tag">Seating</span></p>
+              <h3 class="mt-2 text-step-2">High-Back Task Chairs</h3>
+              <p class="mt-2">Chairs with a taller backrest, considered alongside your desk height and how long you sit.</p>
+              <a class="link-text link-arrow mt-4" href="contact.html?enquiry=product#enquiry-form">Enquire about high-back chairs</a>
+            </div>
+          </li>
+          <li class="catalog-item" data-group="seating">
+            <div class="catalog-item__media"><img src="assets/img/p-n-seat-adjarm.jpg" width="500" height="750" loading="lazy" style="object-position:50% 40%"
+              alt="Fabric office chair with an adjustable armrest on a five-star castor base beside a window"></div>
+            <div>
+              <p><span class="catalog-item__ref">08</span><span class="catalog-item__tag">Seating</span></p>
+              <h3 class="mt-2 text-step-2">Adjustable-Arm Task Chairs</h3>
+              <p class="mt-2">Task chairs with armrests that can be set to suit you and tuck in towards the desk.</p>
+              <a class="link-text link-arrow mt-4" href="contact.html?enquiry=product#enquiry-form">Enquire about adjustable-arm chairs</a>
+            </div>
+          </li>
+          <li class="catalog-item" data-group="seating">
+            <div class="catalog-item__media"><img src="assets/img/p-n-seat-upholstered.jpg" width="1280" height="1920" loading="lazy" style="object-position:50% 40%"
+              alt="Dark speckled fabric office chair with looped armrests on a five-star base, against a white background"></div>
+            <div>
+              <p><span class="catalog-item__ref">09</span><span class="catalog-item__tag">Seating</span></p>
+              <h3 class="mt-2 text-step-2">Upholstered Desk Chairs</h3>
+              <p class="mt-2">Cushioned, fabric-covered seating for everyday desk work, chosen to fit the room and the desk.</p>
+              <a class="link-text link-arrow mt-4" href="contact.html?enquiry=product#enquiry-form">Enquire about upholstered chairs</a>
+            </div>
+          </li>
+          <li class="catalog-item" data-group="desks">
+            <div class="catalog-item__media"><img src="assets/img/p-n-desk-pedestal.jpg" width="1152" height="864" loading="lazy" style="object-position:45% 55%"
+              alt="Wooden office desk with a drawer and cupboard, a monitor and keyboard on top"></div>
+            <div>
+              <p><span class="catalog-item__ref">10</span><span class="catalog-item__tag">Desks</span></p>
+              <h3 class="mt-2 text-step-2">Pedestal Desks</h3>
+              <p class="mt-2">Desks with built-in drawers or a cabinet, for keeping paperwork and equipment close to hand.</p>
+              <a class="link-text link-arrow mt-4" href="contact.html?enquiry=product#enquiry-form">Enquire about pedestal desks</a>
+            </div>
+          </li>
+          <li class="catalog-item" data-group="desks">
+            <div class="catalog-item__media"><img src="assets/img/p-n-desk-corner.jpg" width="1920" height="1280" loading="lazy" style="object-position:50% 55%"
+              alt="Corner computer desk with shelving above and a monitor in a bright room"></div>
+            <div>
+              <p><span class="catalog-item__ref">11</span><span class="catalog-item__tag">Desks</span></p>
+              <h3 class="mt-2 text-step-2">Corner Desks</h3>
+              <p class="mt-2">Desks that use two walls to give a larger work surface in a corner of the room.</p>
+              <a class="link-text link-arrow mt-4" href="contact.html?enquiry=product#enquiry-form">Enquire about corner desks</a>
+            </div>
+          </li>
+          <li class="catalog-item" data-group="desks">
+            <div class="catalog-item__media"><img src="assets/img/p-n-desk-compact.jpg" width="1280" height="851" loading="lazy" style="object-position:50% 50%"
+              alt="Dark wooden desk with a lamp, a monitor on an arm and a keyboard in a small room"></div>
+            <div>
+              <p><span class="catalog-item__ref">12</span><span class="catalog-item__tag">Desks</span></p>
+              <h3 class="mt-2 text-step-2">Compact Desks</h3>
+              <p class="mt-2">Smaller desks for rooms where floor space is limited, sized to the wall you have available.</p>
+              <a class="link-text link-arrow mt-4" href="contact.html?enquiry=product#enquiry-form">Enquire about compact desks</a>
+            </div>
+          </li>
+          <li class="catalog-item" data-group="screens">
+            <div class="catalog-item__media"><img src="assets/img/p-n-screen-riser.jpg" width="1280" height="1917" loading="lazy" style="object-position:50% 65%"
+              alt="Monitor sitting on a low white riser with a drawer, beside a black desk lamp"></div>
+            <div>
+              <p><span class="catalog-item__ref">13</span><span class="catalog-item__tag">Screen setup</span></p>
+              <h3 class="mt-2 text-step-2">Monitor Risers</h3>
+              <p class="mt-2">A simple lift for a screen, with room underneath for a keyboard or small items.</p>
+              <a class="link-text link-arrow mt-4" href="contact.html?enquiry=product#enquiry-form">Enquire about monitor risers</a>
+            </div>
+          </li>
+          <li class="catalog-item" data-group="screens">
+            <div class="catalog-item__media"><img src="assets/img/p-n-screen-stands.jpg" width="1280" height="1912" loading="lazy" style="object-position:50% 40%"
+              alt="Two floor-standing stands holding a monitor and a tablet in a studio space"></div>
+            <div>
+              <p><span class="catalog-item__ref">14</span><span class="catalog-item__tag">Screen setup</span></p>
+              <h3 class="mt-2 text-step-2">Freestanding Monitor Stands</h3>
+              <p class="mt-2">Floor-standing supports that hold a screen or tablet in position without fixing to the desk.</p>
+              <a class="link-text link-arrow mt-4" href="contact.html?enquiry=product#enquiry-form">Enquire about freestanding stands</a>
+            </div>
+          </li>
+          <li class="catalog-item" data-group="screens">
+            <div class="catalog-item__media"><img src="assets/img/p-n-screen-multi.jpg" width="1920" height="1280" loading="lazy" style="object-position:60% 40%"
+              alt="Desk in a room corner with several monitors arranged beside one another"></div>
+            <div>
+              <p><span class="catalog-item__ref">15</span><span class="catalog-item__tag">Screen setup</span></p>
+              <h3 class="mt-2 text-step-2">Multi-Screen Setups</h3>
+              <p class="mt-2">Ways of arranging two or more screens on the desk so they sit side by side and within reach.</p>
+              <a class="link-text link-arrow mt-4" href="contact.html?enquiry=product#enquiry-form">Enquire about multi-screen setups</a>
+            </div>
+          </li>
+          <li class="catalog-item" data-group="accessories">
+            <div class="catalog-item__media"><img src="assets/img/p-acc-wrist.jpg" width="1400" height="1400" loading="lazy" class="!object-contain bg-page" style="object-position:50% 50%"
+              alt="Black foam wrist rest pillow with a hand symbol on it"></div>
+            <div>
+              <p><span class="catalog-item__ref">16</span><span class="catalog-item__tag">Accessories</span></p>
+              <h3 class="mt-2 text-step-2">Wrist Rests &amp; Palm Supports</h3>
+              <p class="mt-2">Soft supports that sit in front of the keyboard or mouse, chosen to suit how you type.</p>
+              <a class="link-text link-arrow mt-4" href="contact.html?enquiry=product#enquiry-form">Enquire about wrist rests</a>
+            </div>
+          </li>
+        </ol>
+        <nav class="pager mt-8" aria-label="Catalogue pages" data-pager hidden></nav>
+        <p class="mt-8 max-w-prose text-step--1">Availability and options vary. Contact us about any category and we'll confirm what can be supplied for your setup.</p>
+      </div>
+    </section>
+
+    <!-- 3 · ERGONOMIC SEATING -->
+    <section class="section surface-alt" aria-labelledby="seat-title">
+      <div class="container-site grid gap-12 lg:grid-cols-12 lg:items-center">
+        <div class="relative lg:col-span-6">
+          <div class="media" style="aspect-ratio:4/5"><img src="assets/img/p-seating-main.jpg" width="1400" height="1867" loading="lazy" style="object-position:50% 45%"
+            alt="Ergonomic mesh chair with a headrest, armrests and a chrome base, seen from the side"></div>
+          <div class="media absolute -bottom-6 end-4 w-2/5 border-4 border-page sm:end-8" style="aspect-ratio:3/4"><img src="assets/img/p-seating-detail.jpg" width="1400" height="1867" loading="lazy" style="object-position:50% 40%"
+            alt="Close view of the curved mesh backrest and adjustment knob on an office chair"></div>
+        </div>
+        <div class="lg:col-span-6 lg:ps-6">
+          <p class="eyebrow">Ergonomic seating</p>
+          <h2 id="seat-title" class="mt-4 max-w-[16ch]">Choosing a chair that fits</h2>
+          <p class="lede mt-5">Four things worth checking before you decide.</p>
+          <dl class="mt-8">
+            <div class="border-t border-line/25 py-4"><dt class="font-display text-step-1 font-medium text-fg">Adjustability and fit</dt><dd class="mt-1 text-step--1 text-fg-soft">Seat height and depth, back support and armrests that can be set to suit you and your desk.</dd></div>
+            <div class="border-t border-line/25 py-4"><dt class="font-display text-step-1 font-medium text-fg">Desk and chair compatibility</dt><dd class="mt-1 text-step--1 text-fg-soft">You should be able to sit with your feet supported and your forearms comfortably at desk height.</dd></div>
+            <div class="border-t border-line/25 py-4"><dt class="font-display text-step-1 font-medium text-fg">Armrests and back support</dt><dd class="mt-1 text-step--1 text-fg-soft">Armrests that tuck under the desk when needed, and a backrest that supports the length of your back.</dd></div>
+            <div class="border-y border-line/25 py-4"><dt class="font-display text-step-1 font-medium text-fg">Space and daily work</dt><dd class="mt-1 text-step--1 text-fg-soft">Room to roll and turn, the hours you sit, whether the chair is shared and what floor it sits on.</dd></div>
+          </dl>
+          <p class="mt-4 text-step--1">This is general guidance. Comfort is personal and it isn't medical advice.</p>
+          <div class="btn-group mt-6"><a class="btn btn-primary" href="contact.html?enquiry=product#enquiry-form">Ask About Seating</a></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4 · DESKS AND SCREEN SETUP -->
+    <section class="section" aria-labelledby="desk-title">
+      <div class="container-site">
+        <div class="relative">
+          <div class="media ratio-4x3 md:aspect-[21/9]"><img src="assets/img/product-desk.jpg" width="1400" height="933" loading="lazy" style="object-position:50% 45%"
+            alt="Sit-stand desk with two monitors, a laptop and a keyboard beside a black office chair"></div>
+          <div class="surface-strong relative z-10 -mt-10 max-w-xl p-6 ms-4 sm:ms-8 md:absolute md:bottom-0 md:start-0 md:mt-0 md:ms-0 md:p-8">
+            <p class="eyebrow">Desks and screen setup</p>
+            <h2 id="desk-title" class="mt-3 text-step-3">Set the work surface, then the screen</h2>
+          </div>
+        </div>
+        <ul class="mt-12 grid gap-x-8 gap-y-8 border-t border-line/25 pt-8 sm:grid-cols-2 lg:grid-cols-4">
+          <li><h3 class="text-step-2">Height-adjustable desks</h3><p class="mt-2 text-step--1">Measure the width and depth you can spare, and the clearance the desk needs to move up and down.</p></li>
+          <li><h3 class="text-step-2">Monitor arms</h3><p class="mt-2 text-step--1">Check how your desk edge will take a clamp or fixing, and that the arm suits your screen's size and weight.</p></li>
+          <li><h3 class="text-step-2">Laptop stands</h3><p class="mt-2 text-step--1">Raise the laptop so the screen sits nearer eye level, and pair it with a separate keyboard and mouse.</p></li>
+          <li><h3 class="text-step-2">Screen risers</h3><p class="mt-2 text-step--1">A simple lift for monitors on desks that can't take an arm, with space left underneath.</p></li>
+        </ul>
+        <div class="btn-group mt-10"><a class="btn btn-secondary" href="#desks">See Desks &amp; Screen Setup</a></div>
+      </div>
+    </section>
+
+    <!-- 5 · WORKSPACE ACCESSORIES -->
+    <section class="section surface-alt" aria-labelledby="acc-title">
+      <div class="container-site grid gap-12 lg:grid-cols-12">
+        <div class="lg:col-span-5">
+          <p class="eyebrow">Workspace accessories</p>
+          <h2 id="acc-title" class="mt-4 max-w-[14ch]">The small things that tidy a desk</h2>
+          <ul class="mt-8">
+            <li class="border-t border-line/25 py-4"><h3 class="text-step-1">Keyboard &amp; mouse accessories</h3><p class="mt-1 text-step--1">Wrist supports and compact input devices that suit how you work.</p></li>
+            <li class="border-t border-line/25 py-4"><h3 class="text-step-1">Footrests</h3><p class="mt-1 text-step--1">Help you sit with feet supported when desk or chair height can't change.</p></li>
+            <li class="border-t border-line/25 py-4"><h3 class="text-step-1">Organisers &amp; cable management</h3><p class="mt-1 text-step--1">Keep cables, chargers and stationery off the work surface.</p></li>
+            <li class="border-y border-line/25 py-4"><h3 class="text-step-1">Workspace lighting</h3><p class="mt-1 text-step--1">A task lamp placed to light your work and keep glare off the screen.</p></li>
+          </ul>
+          <p class="mt-4 text-step--1">Not every accessory is always available. Ask us what we can source for your setup.</p>
+        </div>
+        <div class="grid grid-cols-2 items-end gap-3 lg:col-span-7 lg:gap-4">
+          <div class="media col-span-2 ratio-16x9"><img src="assets/img/a-area-accessories.jpg" width="1920" height="1280" loading="lazy" style="object-position:50% 70%"
+            alt="Tidy wooden desk with a black task lamp, a laptop, stacked books and a desk organiser against a bright wall"></div>
+          <div class="media ratio-1x1"><img src="assets/img/h2-cat-keyboard-mouse.jpg" width="1920" height="1280" loading="lazy" style="object-position:78% 72%"
+            alt="White wireless keyboard and mouse on a wooden desk below a monitor"></div>
+          <div class="media ratio-1x1"><img src="assets/img/p-acc-wrist.jpg" width="1400" height="1400" loading="lazy" class="!object-contain bg-page"
+            alt="Black foam wrist rest pillow with a hand symbol on it"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6 · PRODUCT ENQUIRY -->
+    <section class="surface-strong py-section" aria-labelledby="enq-title">
+      <div class="container-site grid gap-10 lg:grid-cols-12 lg:items-end">
+        <div class="lg:col-span-7">
+          <p class="eyebrow">Product enquiry</p>
+          <h2 id="enq-title" class="mt-4 max-w-[18ch] text-step-5">Looking for the Right Workspace Fit?</h2>
+          <p class="mt-5 max-w-prose text-step-1">Tell us about your workspace and the furniture you are considering. We can help you explore suitable options.</p>
+        </div>
+        <div class="lg:col-span-5">
+          <div class="btn-group lg:justify-end">
+            <a class="btn btn-primary" href="contact.html?enquiry=product#enquiry-form">Ask About a Product</a>
+            <a class="btn btn-secondary" href="contact.html?enquiry=consultation#enquiry-form">Book a Consultation</a>
+          </div>
+          <p class="mt-4 text-step--1 lg:text-end">Both open the enquiry form on the Contact page.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div data-site-footer></div>
+
+  <script src="js/site-config.js"></script>
+  <script src="js/layout.js"></script>
+  <script src="js/products.js"></script>
+</body>
+</html>

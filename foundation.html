@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Design Foundation — internal reference</title>
+  <meta name="description" content="Internal reference for the Midnight Studio design foundation. Not a public page.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <script src="js/prefs.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="foundation">
+  <div data-site-header></div>
+
+  <main id="main">
+    <!-- Inner-page hero sizing demo (neutral content; real heroes come in later phases) -->
+    <section class="hero-inner" aria-labelledby="f-title">
+      <div class="container-site hero-inner__grid hero-inner__grid--media">
+        <div class="hero-inner__copy">
+          <p class="eyebrow">Internal reference</p>
+          <h1 id="f-title" class="mt-4">Design foundation</h1>
+          <p class="lede">Tokens, type, buttons and the shared inner-page hero system. This page is a working reference, not part of the public site.</p>
+          <div class="btn-group">
+            <a class="btn btn-primary" href="#colour">Colour tokens</a>
+            <a class="btn btn-secondary" href="#buttons">Buttons</a>
+          </div>
+        </div>
+        <div class="hero-inner__media" role="img" aria-label="Placeholder for hero image area" style="background:linear-gradient(135deg,rgb(var(--alt)),rgb(var(--line) / .25))"></div>
+      </div>
+    </section>
+
+    <section id="colour" class="section" aria-labelledby="colour-h">
+      <div class="container-site">
+        <p class="eyebrow">Midnight Studio</p>
+        <h2 id="colour-h" class="mt-3 max-w-[20ch]">Colour tokens</h2>
+        <ul class="mt-10 grid grid-cols-2 gap-px border border-line/15 bg-ink/15 md:grid-cols-5">
+          <li class="bg-ink p-5 text-cool"><span class="block h-14"></span><b class="block">Ink Navy</b><code>#17263D</code></li>
+          <li class="bg-steel p-5 text-white"><span class="block h-14"></span><b class="block">Steel Blue</b><code>#416A8A</code></li>
+          <li class="bg-ice p-5 text-ink"><span class="block h-14"></span><b class="block">Ice Blue</b><code>#D9E6F0</code></li>
+          <li class="bg-cool p-5 text-ink"><span class="block h-14"></span><b class="block">Cool White</b><code>#F5F7FA</code></li>
+          <li class="bg-copper p-5 text-[#0F1B2D]"><span class="block h-14"></span><b class="block">Muted Copper</b><code>#B77C5B</code></li>
+        </ul>
+        <p class="mt-6 max-w-prose text-step--1">Copper is decorative and for large type only on light backgrounds (about 3.2:1 on Cool White). Use <code>copper-deep</code> <code>#8F5A3C</code> for copper-toned text.</p>
+      </div>
+    </section>
+
+    <section class="section surface-alt" aria-labelledby="type-h">
+      <div class="container-site grid gap-12 lg:grid-cols-12">
+        <div class="lg:col-span-4">
+          <p class="eyebrow">Typography</p>
+          <h2 id="type-h" class="mt-3">Fraunces and Public Sans</h2>
+          <p class="mt-4">Editorial serif headings, readable sans body, a fluid scale and a 65ch reading measure.</p>
+        </div>
+        <div class="space-y-6 lg:col-span-8">
+          <h1>Heading one, step 5</h1>
+          <h2>Heading two, step 4</h2>
+          <h3>Heading three, step 3</h3>
+          <h4>Heading four, step 2</h4>
+          <p class="lede">Lede paragraph, step 1. Used under page titles to frame what follows.</p>
+          <p class="prose-block">Body copy, step 0. A comfortable line height and a capped line length keep longer paragraphs easy to read on desktop, while small screens get the same size with tighter gutters.</p>
+          <a class="link-text link-arrow" href="#buttons">Text link</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="buttons" class="section" aria-labelledby="btn-h">
+      <div class="container-site">
+        <p class="eyebrow">Interaction</p>
+        <h2 id="btn-h" class="mt-3">Buttons</h2>
+        <div class="btn-group mt-8">
+          <a class="btn btn-primary" href="#buttons">Primary</a>
+          <a class="btn btn-secondary" href="#buttons">Secondary</a>
+          <button class="btn btn-primary" disabled>Disabled</button>
+        </div>
+        <div class="surface-strong mt-8 p-8">
+          <p class="eyebrow">On Ink Navy</p>
+          <div class="btn-group mt-5">
+            <a class="btn btn-primary" href="#buttons">Primary</a>
+            <a class="btn btn-secondary" href="#buttons">Secondary</a>
+            <a class="link-text" href="#buttons">Text link</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div data-site-footer></div>
+
+  <script src="js/site-config.js"></script>
+  <script src="js/layout.js"></script>
+</body>
+</html>

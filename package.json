@@ -1,0 +1,12 @@
+{
+  "name": "home-office-ergonomics-site",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "build": "node ./node_modules/tailwindcss/lib/cli.js -i ./src/input.css -o ./css/styles.css --minify",
+    "dev": "node ./node_modules/tailwindcss/lib/cli.js -i ./src/input.css -o ./css/styles.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
