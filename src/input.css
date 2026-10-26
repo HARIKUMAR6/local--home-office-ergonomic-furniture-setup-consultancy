@@ -191,6 +191,12 @@
     .btn-group > .btn { @apply w-full; }
   }
 
+  /* Tablet only (same range as the compact tablet header): CTA pairs share one width, so a short label never
+     makes a smaller button, whether the pair sits side by side or stacks. Opt in with .btn-group--even. */
+  @media (min-width: 48rem) and (max-width: 79.99rem) and (min-height: 36rem) {
+    .btn-group--even > .btn { min-width: 16.5rem; }
+  }
+
   /* Text link */
   .link-text {
     @apply inline-flex items-center gap-1.5 font-semibold text-link underline decoration-copper decoration-2 underline-offset-[6px];

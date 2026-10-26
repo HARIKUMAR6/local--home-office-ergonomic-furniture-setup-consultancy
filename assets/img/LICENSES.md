@@ -28,10 +28,8 @@ Monitor arm: Ben Scholzen (CC BY 2.0) · Keyboard and mouse: Lady Aleena (public
 ## Products and Consultation Services (not shown to visitors)
 | File | Source file on Commons | Author | Licence |
 |---|---|---|---|
-| p-hero-chair.jpg | Sihoo M57 mesh office chair 06.jpg | <a href="//commons.wikimedia.org/wiki/User:Waldyrious" title | CC BY-SA 4.0 |
 | p-hero-desk.jpg | Ikea Bekant Sit Stand Desk (19548014198).jpg | <a rel="nofollow" class="external text" href="https://www.fl | CC BY-SA 2.0 |
 | p-hero-laptop-stand.jpg | Laptop stand.jpg | Solijon Solayev | CC BY-SA 4.0 |
-| p-cat-chair.jpg | Sihoo M57 mesh office chair 01.jpg | <a href="//commons.wikimedia.org/wiki/User:Waldyrious" title | CC BY-SA 4.0 |
 | p-cat-keyboard.jpg | QWERTY Truly Egronomic Keyboard.jpg | <a href="//commons.wikimedia.org/wiki/User:Hustvedt" title=" | CC BY-SA 3.0 |
 | p-cat-organizer.jpg | Gather, The minimal, modular organizer. (Unsplash).jpg | Jeff Sheldon ugmonk | CC0 |
 | p-seating-main.jpg | Sihoo M57 mesh office chair 09.jpg | <a href="//commons.wikimedia.org/wiki/User:Waldyrious" title | CC BY-SA 4.0 |
@@ -59,3 +57,16 @@ a-cta-white-desk: Minimal desk and painting · ct-hero-laptop: Home desk · ct-c
 | p-n-screen-riser | Workspace setup with a computer monitor and desk lamp in an office environment.jpg | Shixart1985 | CC BY 2.0 |
 | p-n-screen-stands | Laptop and monitor on a stands.jpg | Vincent Diamante | CC BY-SA 2.0 |
 | p-n-screen-multi | Computer corner update.jpg | Stefan Ledwina | CC BY-SA 2.0 |
+
+## Products image-quality pass (not shown to visitors)
+| File | Source file on Commons | Author | Licence |
+|---|---|---|---|
+| p-q-chair-hero.jpg | Gesture-Seating.png | Steelcase Inc | CC BY 3.0 |
+| p-q-chair-ergonomic.jpg | Prototype ergonomic office chair, V&A London.jpg | 14GTR | CC0 |
+| p-q-chair-adjarm.jpg | Velalux.jpg | JTJ9000 | CC BY-SA 4.0 |
+| p-q-desk-pedestal.jpg | Laptop and books (Unsplash).jpg | Kari Shea karishea | CC0 |
+| p-q-desk-corner.jpg | Winter Workspace (Unsplash).jpg | Norbert Levajsics levajsics | CC0 |
+| p-q-desk-compact.jpg | Home desk (Unsplash).jpg | Scott Webb scottwebb | CC0 |
+| p-q-screen-stand.jpg | Gabriel Beaudry's desk setup (Unsplash).jpg | Gabriel Beaudry gbeaudry | CC0 |
+| p-q-screen-multi.jpg | Apple computer monitors desk (Unsplash).jpg | Tran Mau Tri Tam tranmautritam | CC0 |
+| p-q-acc-wrist.jpg | Dell KB522 -- top with wrist rest detached.jpg | Daniel beardsmore | Public domain |
